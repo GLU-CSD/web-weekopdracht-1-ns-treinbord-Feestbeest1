@@ -5,22 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weekopdracht - NS-Treinbord</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <title>Analog Clock</title>
 </head>
 <body>
     <div id="container">
         <div id="left">
-            <!-- hier komt de klok -->
+         <div class="clock-dial"></div>
+         <script src="logic.js"></script>
         </div>
         <div id="middle">
             <img src="assets/img/ns_logo.png" alt="" class="logo">
-            <div id="vakinhetmiddle">
-                <h1>Heerlen</h1>
-                <p>Via 's-Hertogenbosh, Eindhoven, Weert, Roermond en Sittard</p> </div>
-            <div id="grijsvak"> </div>
-        </div>
-        <div id="right">
-        spoor 18b
-        </div>
+            <div id="witvierkantmiddle"> 
+            <h1 id="Heerlen">Heerlen</h1> 
+            <p id="via">via 's-Hertogenbosch, Eindhoven, 
+                Weert, Roermond, Sittard</p>
+            <p id="Inter">Intercity</p>
+            </div>
+            <div id="blauwvakmiddle"></div>
+             </div>
+             <div id="right">
+            <div id="vierkantright">
+             <div id= "kantright"></div>
+                <div id="Spoor">spoor</div>
+                <div id="letter">b</div>
+                <div id="nummer">18</div>
+           </div>
     </div>
 </body>
-</html>
+</html> 
